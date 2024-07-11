@@ -1,0 +1,26 @@
+* observações são as linhas
+* variáveis são as colunas
+
+- ANALISE DE CLUSTER é para agrupar observações em grupos homogenios internamente e heterogeneos entre si
+  - output - variavel CATEGÓRICA que indica a qual cluster esta observação se encaixa
+  - Este output pode ser usado na tecnica de correspondencia, por exemplo
+
+- ANALISE FATORAL PCA - é o agrupamento de variaveis em fatores - VARIÁVEIS MÉTRICAS
+  - Depende da relação de pearson, então são feitas em varaveis metricas
+  - output - 
+
+- ANALISE DE CORRESPONDÊNCIA - analise de associação entre variáveis CATEGÓRICAS
+  - output - mapa perceptual, onde podemos ver a ligação entre as variaveis
+
+Geral:
+  comando dataframe.describe() -> extrai as metricas (min, max, media)
+
+PCA 
+  - primeira analise que podemos fazer é o mapa de calor, feito apartir da matriz de correlação
+  - matriz de correção é extraida pelo dataframe.corr(), porem para funcionar é necessario apenas dados metricos
+  - agora precisamos extrair quantos fatores podemos extrair, lembrado que, o numero maximo de fatores é igual a quantidade de variaveis (colunas)
+  
+
+
+
+
